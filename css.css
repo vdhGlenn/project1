@@ -1,0 +1,132 @@
+/* Opmaakbestand - CSS (c) Van den Heuvel Glenn */
+
+/* Body - Pagina */
+
+body,td,th {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-size: medium;
+}
+body {
+    background-color: #CACACA;  
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Headers */
+h1{
+	color: black;
+}
+h2{
+	color: black;
+}
+h3{
+    color: firebrick;
+    text-align: center;
+	clear: both;
+    
+}
+h4{
+	color: darkgreen;
+}
+h4{
+	color: darkblue;
+}
+div
+{align-content: center;
+}
+/* Hyperlinks */
+
+a:link {
+    color: #2D01F2;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #2D01F2;
+}
+a:hover {
+    text-decoration: none;
+    color: #160847;
+}
+a:active {
+    text-decoration: none;
+    color: #160847;
+}
+
+/* Navigatie Buttons */
+#nav
+{	margin: 0;
+	padding: 0;
+	z-index: 30;
+ 	text-align: center;
+	position: relative; 
+    left: 0; 
+    right: 0;	
+}
+
+/* ID */
+#nav li
+{	margin: 0;
+	padding: 0;
+	display: inline;
+	font: bold 14px arial;
+	}
+
+#nav li a
+{	display: inline-block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 180px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav li a:hover
+{	background: #49A3FF;
+}
+#white{
+	color: white;
+	}
+
+/* Klassen */
+
+.start{
+	background-color: #2D9AB7;
+	text-align: center;
+	position: relative; 
+    padding-top: 5px;	
+	padding-bottom: 5px;
+	}
+.logo {	
+	background-color: #B3B3B3;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	clear: both;
+	position: relative;
+	font-style: italic;
+}
+.introductie {
+    clear: both;
+    background-color: aliceblue;
+    position: relative;
+	}
+.kolom {
+	width: 29%;
+	text-align: justify;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+.afbeelding {
+	width: 90%;
+	margin: 0 auto;
+}
+.einde{
+	background-color: #2D9AB7;
+	text-align: center;
+	clear: both;
+	}
